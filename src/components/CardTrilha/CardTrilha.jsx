@@ -1,30 +1,31 @@
 import './CardTrilha.css'
+import PropTypes from 'prop-types'
 
-export function CardTrilha() {
+export function CardTrilha(props) {
     return (
         <div className="container">
             <div className="img-container">
-                <img src="https://th.bing.com/th/id/OIP.IcTZZ1-5Gwa76smIvmrYIgHaE8?rs=1&pid=ImgDetMain" />
+                <img src={props.imgURL} />
             </div>
 
             <div className="details-container">
                 <div className="title-area">
-                    <h1>Trilha da Costa da Lagoa - Florianópolis / SC</h1>
+                    <h1>{props.trailName} - {props.city} / {props.state}</h1>
                     <span>Coracao</span>
                 </div>
                 
                 <div className="autor-area">
-                    <p>Por: Daniel Rogerio</p>
+                    <p>Por: {props.author}</p>
                 </div>
                 
                 <div className="about-area">
-                    <p>Duração: 120min</p>
-                    <p>Trajeto: 4 km</p>
+                    <p>Duração: {props.duration}min</p>
+                    <p>Trajeto: {props.distance} km</p>
                 </div>
         
                 <div className="dificult-area">
                     <div className="tag">
-                        <p>Iniciante</p>
+                        <p>{props.difficult}</p>
                     </div>
                 </div>
         
@@ -35,4 +36,15 @@ export function CardTrilha() {
             </div>
         </div>
     )
+}
+
+CardTrilha.propTypes = {
+    imgURL: PropTypes.string.isRequired,
+    trailName: PropTypes.string.isRequired,
+    city: PropTypes.string.isRequired,
+    state: PropTypes.string.isRequired,
+    author: PropTypes.string.isRequired,
+    duration: PropTypes.number.isRequired,
+    distance: PropTypes.number.isRequired,
+    difficult: PropTypes.string.isRequired,
 }
