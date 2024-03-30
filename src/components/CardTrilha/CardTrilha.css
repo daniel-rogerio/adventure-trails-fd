@@ -1,0 +1,103 @@
+/* Card Estilos: */
+.container {
+    display: flex;
+
+    width: 1000px;
+    height: 300px;
+
+    box-shadow: 1px 4px 5px 0px rgba(0,0,0,0.55);
+}
+
+/* -------------------------------------------------------------------------- */
+
+/* Card - Imagem */
+.img-container img {
+    width: 300px;
+    height: 300px;
+}
+/* -------------------------------------------------------------------------- */
+
+/* Card - Detalhes */
+.details-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px;
+}
+/* -------------------------------------------------------------------------- */
+
+/* Card - Detalhes: titulo */
+.title-area {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.title-area h1 {
+    font-size: 30px;
+}
+
+.title-area span {
+    padding-left: 10px;
+}
+/* -------------------------------------------------------------------------- */
+
+/* Card - Detalhes: autor */
+.autor-area {
+    display: flex;
+    align-items: baseline;
+    justify-content: flex-end;
+    font-weight: bold;
+}
+
+.autor-area p {
+    padding-right: 10px;
+}
+/* -------------------------------------------------------------------------- */
+
+/* Card - Detalhes: sobre */
+.about-area {
+    display: flex;
+    flex-direction: column;
+}
+
+.about-area p {
+    padding: 0 0 5px 0;
+}
+/* -------------------------------------------------------------------------- */
+
+/* Card - Detalhes: dificuldade */
+.dificult-area {
+    display: flex;
+}
+
+.dificult-area .tag {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 30px;
+    width: 100px;
+    padding: 5px;
+
+    background-color: lightgray;
+    border-radius: 20px;
+}
+/* -------------------------------------------------------------------------- */
+
+/* Card - Detalhes: avaliação */
+.avaliation-area {
+    display: flex;
+    align-items: center
+}
+
+.avaliation-area img {
+    width: 300px;
+    height: 50px;
+}
+
+.avaliation-area p a {
+    font-size: 20px;
+    padding-left: 20px;
+}
