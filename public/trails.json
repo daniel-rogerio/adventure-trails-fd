@@ -1,0 +1,52 @@
+[
+    {
+        "trailname": "Trilha da Costa da Lagoa",
+        "city": "Florianópolis",
+        "state": "SC",
+        "author": "Daniel Rogerio",
+        "duration": 120,
+        "distance": 6,
+        "difficult": "Avançado",
+        "imgURL": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/07/44/cd/ef/trilha-costa-da-lagoa.jpg?w=1200&h=1200&s=1"
+    },
+    {
+        "trailname": "Trilha das piscinas naturais da Barra da Lagoa",
+        "city": "Florianópolis",
+        "state": "SC",
+        "author": "Daniel Rogerio",
+        "duration": 30,
+        "distance": 1,
+        "difficult": "Iniciante",
+        "imgURL": "https://www.maladeaventuras.com/wp-content/uploads/2020/04/trilhas-de-florianopolis-piscinas-naturais-768x480.jpg"
+    },
+    {
+        "trailname": "Trilha do Gravatá",
+        "city": "Florianópolis",
+        "state": "SC",
+        "author": "Daniel Rogerio",
+        "duration": 50,
+        "distance": 1,
+        "difficult": "Iniciante",
+        "imgURL": "https://www.maladeaventuras.com/wp-content/uploads/2020/04/trilhas-de-florianopolis-lagoinha-do-leste-768x480.jpg"
+    },
+    {
+        "trailname": "Trilha da Galheta",
+        "city": "Florianópolis",
+        "state": "SC",
+        "author": "Daniel Rogerio",
+        "duration": 100,
+        "distance": 2,
+        "difficult": "Intermediário",
+        "imgURL": "https://www.maladeaventuras.com/wp-content/uploads/2020/04/trilhas-de-florianopolis-lagoa-da-conceicao-768x480.jpg"
+    },
+    {
+        "trailname": "Trilha do Morro das Aranhas",
+        "city": "Florianópolis",
+        "state": "SC",
+        "author": "Daniel Rogerio",
+        "duration": 100,
+        "distance": 2,
+        "difficult": "Intermediário",
+        "imgURL": "https://www.maladeaventuras.com/wp-content/uploads/2020/04/trilhas-de-florianopolis-mulher-768x480.jpg"
+    }
+]
